@@ -30,3 +30,22 @@ Para que el proyecto funcione correctamente tras clonarlo, se deben tener en cue
 ## 👤 Autor
 - **Andrés Vera** - *Desarrollador Principal*
 - Proyecto desarrollado para DAM.
+## 📥 Instrucciones para la Instalación (Evaluadores)
+
+Para abrir este proyecto en **Android Studio**, siga estos pasos para asegurar una configuración correcta:
+
+1. **Clonar el proyecto:**
+   - En Android Studio, vaya a `File > New > Project from Version Control`.
+   - Pegue la URL de este repositorio: `https://github.com/TU_USUARIO/TU_REPOSITORIO.git`
+   - Haga clic en **Clone**.
+
+2. **Sincronización de Gradle:**
+   - Una vez abierto, Android Studio comenzará a descargar las dependencias automáticamente. 
+   - Si aparece un aviso de "Gradle sync", confirme la sincronización.
+
+3. **Configuración de Firebase:**
+   - El archivo `google-services.json` ya se encuentra en la ruta `app/google-services.json`. No es necesaria una configuración adicional de Firebase para la compilación inicial.
+
+4. **Ejecución:**
+   - Conecte un dispositivo físico o inicie un emulador (se recomienda API 24 o superior).
+   - Pulse el botón **Run 'app'** (Triángulo verde).
