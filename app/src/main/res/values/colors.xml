@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores base de Material Design (Generalmente se mantienen) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- Colores Funcionales y de Marca -->
+    <color name="fitvera_blue">#1d7dc8</color>             <!-- Color de Marca/Acento -->
+    <color name="orange">#FFFF5722</color>
+    <color name="green">#4CAF50</color>
+    <color name="green_vip">#4CAF50</color>
+    <color name="green_button">#4CAF50</color>
+
+    <!-- Colores de UI Específicos (Modo CLARO) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_50_percent">#80FFFFFF</color>
+
+    <color name="gray_dark">#FF363636</color>
+    <color name="gray_light">#FF808080</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#9E9E9E</color>           <!-- Iconos no seleccionados -->
+
+    <color name="screen_background">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_color">#000000</color>
+    <color name="text_color_normal">#000000</color>
+    <color name="text_color_muted">#666666</color>
+    <color name="border_color">#000000</color>
+    <color name="navigation_background">#E0E0E0</color>
+    <color name="divider_color">#DDDDDD</color>
+    <color name="stroke_color">#E0E0E0</color>
+    <color name="ranking_item_background">#FFFFFF</color>
+
+    <!-- Colores específicos para la navegación (CORREGIDOS) -->
+    <color name="app_background_default">#F5F5F5</color>
+    <color name="nav_background_default">#E0E0E0</color>
+    <color name="drawer_background_default">#FFFFFF</color>
+    <color name="unselected_icon_default">@color/gray_400</color>
+    <color name="unselected_text_default">@color/gray_dark</color>
+
+
+    <!-- Colores de Racha/Streak -->
+    <color name="streak_yellow">#FFC107</color>
+    <color name="streak_orange">#FF9800</color>
+    <color name="streak_red">#F44336</color>
+    <color name="streak_purple">#9C27B0</color>
+    <color name="streak_blue">#2196F3</color>
+
+    <color name="gold_color">#FFD700</color>    <color name="silver_color">#BDBDBD</color>  <color name="bronze_color">#A57164</color>
+</resources>

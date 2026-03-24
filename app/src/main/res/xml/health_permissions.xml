@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<health-permissions>
+    <read-permission name="android.permission.health.READ_DISTANCE" />
+    <read-permission name="android.permission.health.READ_TOTAL_CALORIES_BURNED" />
+    <read-permission name="android.permission.health.READ_EXERCISE" />
+
+    <read-permission name="androidx.health.connect.client.records.ExerciseSessionRecord" />
+    <read-permission name="androidx.health.connect.client.records.DistanceRecord" />
+    <read-permission name="androidx.health.connect.client.records.TotalCaloriesBurnedRecord" />
+</health-permissions>

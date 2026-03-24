@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <!-- Usamos un color rojo fijo para el estado de 'alerta' -->
+    <solid android:color="#DC3545" />
+    <!-- El tamaño es definido en el layout, pero puedes agregar un tamaño mínimo si lo deseas -->
+</shape>

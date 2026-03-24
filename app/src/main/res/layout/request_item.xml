@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <View
+        android:id="@+id/requestUnreadIndicator"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/unread_circle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="4dp"
+        android:contentDescription="@string/request_unread_indicator_desc"
+        android:visibility="gone"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/requestProfileImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@id/requestUnreadIndicator"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/ic_default_profile"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#F0F0F0"
+        android:contentDescription="@string/request_profile_image_desc"
+        android:layout_centerVertical="true"/>
+
+    <LinearLayout
+        android:id="@+id/textContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/requestProfileImage"
+        android:layout_toStartOf="@id/requestActionContainer"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/requestNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="@string/placeholder_user_name" />
+
+        <TextView
+            android:id="@+id/requestStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/request_status_follow"
+            android:maxLines="2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/requestActionContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/requestRejectButton"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="10sp"
+            android:text="@string/button_reject_text"
+            android:backgroundTint="#FF6347"
+            android:layout_marginEnd="4dp"/>
+
+        <Button
+            android:id="@+id/requestAcceptButton"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="10sp"
+            android:text="@string/button_accept_text"
+            android:backgroundTint="#4CAF50"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/requestProfileImage"
+        android:layout_marginTop="8dp"
+        android:background="#E0E0E0"/>
+</RelativeLayout>

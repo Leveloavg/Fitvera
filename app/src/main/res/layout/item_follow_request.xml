@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="12dp"
+    android:background="?android:attr/colorBackground"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_default_profile"
+        app:civ_border_color="?android:attr/textColorPrimaryInverse"
+        app:civ_border_width="2dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="@string/edit_profile_picture_description"/>
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="@string/placeholder_user_name"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="16sp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/acceptButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/button_accept"
+        android:textSize="12sp"
+        app:cornerRadius="8dp"
+        android:backgroundTint="@color/green_button"
+        android:textColor="@color/white"
+        android:layout_marginEnd="8dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/denyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/button_deny"
+        android:textSize="12sp"
+        app:cornerRadius="8dp"
+        android:backgroundTint="@color/purple_200"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

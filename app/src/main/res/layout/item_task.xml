@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/rounded_corner_card"
+    android:elevation="4dp"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTaskTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="14:30"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/fitvera_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:background="#CCCCCC"
+        app:layout_constraintStart_toEndOf="@id/textViewTaskTime"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/layoutActionButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center_vertical"
+        android:visibility="visible"> <ImageButton
+        android:id="@+id/buttonEdit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_edit_white_24dp"
+        android:scaleType="fitCenter"
+        android:layout_marginEnd="4dp"
+        app:tint="@color/fitvera_blue"
+        android:contentDescription="Editar tarea" />
+
+        <ImageButton
+            android:id="@+id/buttonDelete"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_delete_white"
+            android:scaleType="fitCenter"
+            app:tint="#DC3545"
+            android:contentDescription="Eliminar tarea" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewTaskTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/text_color_normal"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/divider"
+        app:layout_constraintEnd_toStartOf="@+id/layoutActionButtons" app:layout_constraintTop_toTopOf="parent"
+        tools:text="Entrenamiento de Pecho" />
+
+    <TextView
+        android:id="@+id/textViewTaskDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/text_color_muted"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/divider"
+        app:layout_constraintEnd_toStartOf="@+id/layoutActionButtons" app:layout_constraintTop_toBottomOf="@+id/textViewTaskTitle"
+        tools:text="4 series de press banca..." />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

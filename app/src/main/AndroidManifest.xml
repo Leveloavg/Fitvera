@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION"/>
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.health.READ_DISTANCE"/>
+    <uses-permission android:name="android.permission.health.READ_TOTAL_CALORIES_BURNED"/>
+    <uses-permission android:name="android.permission.health.READ_EXERCISE"/>
+    <uses-permission android:name="android.permission.health.READ_STEPS"/>
+    <uses-permission android:name="android.permission.health.READ_HEART_RATE"/>
+
+    <queries>
+        <package android:name="com.google.android.apps.healthdata"/>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Fitvera"
+        tools:targetApi="34"
+        android:localeConfig="@xml/locales_config"
+        tools:replace="android:fullBackupContent,android:localeConfig">
+
+        <meta-data
+            android:name="androidx.health.connect.permissions"
+            android:resource="@xml/health_permissions"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Fitvera">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".HealthConnectRationaleActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="androidx.health.connect.client.ACTION_SHOW_PERMISSIONS_RATIONALE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="healthconnect" android:host="show-permissions-rationale" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity2" android:exported="false"/>
+        <activity android:name=".PlanificarEntrenamiento" android:exported="false"/>
+        <activity android:name=".RegistrarEntrenamiento" android:exported="true"/>
+
+        <activity
+            android:name=".RegistrarEntrenamientoFuerza"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan"/>
+
+        <activity android:name=".MostrarEntrenamientos" android:exported="true"/>
+        <activity android:name=".EntrenamientoDetalles" android:exported="false"/>
+        <activity android:name=".ResultadosEntrenamiento" android:exported="false"/>
+        <activity android:name=".FriendsActivity" android:exported="false"/>
+
+        <activity android:name=".DesafiosActivity" android:exported="false"/>
+        <activity android:name=".OtroUsuarioPerfilActivity" android:exported="false"/>
+        <activity android:name=".MostrarTrofeos" android:exported="false"/>
+        <activity android:name=".RankingActivity" android:exported="false"/>
+        <activity android:name=".MapaGlobalActivity" android:exported="false"/>
+        <activity android:name=".FeedActividades" android:exported="false"/>
+        <activity android:name=".ImportarEntrenamientoHC" android:exported="false"/>
+
+        <activity
+            android:name=".LeagueActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <activity
+            android:name=".ImportarEntrenamientoZepp"
+            android:launchMode="singleTask"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="fitvera"
+                    android:host="callback" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".EntrenamientoService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="location"/>
+
+    </application>
+
+</manifest>

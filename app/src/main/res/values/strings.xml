@@ -1,0 +1,355 @@
+<resources>
+    <!-- Planner Screen -->
+    <string name="back_button_desc">Go back</string>
+    <string name="planner_title">Workout Planner</string>
+    <string name="tasks_title">Daily Tasks</string>
+    <string name="add_task_button_desc">Add new task or workout to the selected day</string>
+
+    <!-- Training Registration Screen -->
+    <string name="exit_button_desc">Exit training registration</string>
+    <string name="paused_training_status">TRAINING PAUSED</string>
+
+    <string name="metric_pace_title">Pace</string>
+    <string name="metric_distance_title">Distance traveled</string>
+    <string name="metric_elevation_title">Positive elevation gain</string>
+
+    <string name="average_pace_per_km_title">Average Pace per KM</string>
+
+    <string name="button_start_text">START</string>
+    <string name="button_pause_text">PAUSE</string>
+    <string name="button_finish_text">FINISH TRAINING</string>
+
+    <!-- Social Request List Item -->
+    <string name="request_unread_indicator_desc">Unread request indicator</string>
+    <string name="request_profile_image_desc">Requester\'s profile picture</string>
+    <string name="placeholder_user_name">User Name</string>
+    <string name="request_status_follow">Requested to follow you / You requested to follow</string>
+    <string name="button_reject_text">Reject</string>
+    <string name="button_accept_text">Accept</string>
+
+    <!-- Trophy Item -->
+    <string name="trophy_icon_desc">Trophy icon</string>
+    <string name="placeholder_trophy_title">Trophy Name</string>
+    <string name="placeholder_trophy_description">Trophy Description</string>
+
+    <!-- User Profile Card Item -->
+    <string name="user_profile_image_desc">User profile picture</string>
+    <string name="placeholder_user_full_name">First Name Last Name</string>
+    <string name="placeholder_friends_count">Following 5 friends</string>
+    <string name="button_follow_text">Follow</string>
+
+    <!-- Friends List Screen -->
+    <string name="friends_header_title">Friends</string>
+    <string name="search_friends_hint">Search friends by name...</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">Profile</string>
+    <string name="user_name_placeholder">User Name</string>
+    <string name="user_info_placeholder">Profile Info</string>
+    <string name="streak_icon_desc">Streak days icon</string>
+    <string name="streak_days_label"> day streak</string>
+    <string name="max_streak_label">Max Streak: </string>
+    <string name="max_streak_days_placeholder">15 days</string>
+    <string name="latest_activities_title">Latest Activities</string>
+    <string name="activity_distance_placeholder">5.2 km - Run</string>
+    <string name="activity_time_placeholder">Time: 30:00</string>
+    <string name="activity_pace_placeholder">Pace: 5:46 /km</string>
+    <string name="no_activities_message">No recent activities.</string>
+    <string name="achievements_title">Achievements</string>
+    <string name="trophies_grid_desc">Trophy grid</string>
+    <string name="statistics_title">Statistics</string>
+    <string name="stat_total">Total</string>
+    <string name="stat_year">Year</string>
+    <string name="stat_month">Month</string>
+    <string name="stat_activity_label">Activity</string>
+    <string name="stat_distance_label">Kilometers</string>
+    <string name="stat_time_label">Time</string>
+    <string name="stat_elevation_label">Elevation</string>
+    <string name="chart_title">Activity Graph</string>
+    <string name="privacy_message">Private profile. You need to follow this user to see their information.</string>
+
+    <!-- New strings added for Profile Layout -->
+    <string name="profile_screen_title">My Profile</string>
+    <string name="content_description_achievements_button">Achievements button</string>
+    <string name="content_description_edit_profile">Edit profile information</string>
+    <string name="content_description_streak_icon">Workout streak days icon</string>
+    <string name="placeholder_user_name_profile">FitVera User</string>
+    <string name="placeholder_user_details_profile">Amateur runner, 20 years old</string>
+    <string name="placeholder_streak_current">0</string>
+    <string name="label_days">days</string>
+    <string name="placeholder_max_streak">Max Streak: 0 days</string>
+    <string name="placeholder_max_streak_zero">Max Streak: 0 days</string>
+    <string name="placeholder_followers_count">0 Followers</string>
+    <string name="message_pending_invitation">0 Following</string>
+    <string name="section_title_statistics">Statistics</string>
+    <string name="table_header_total">Total</string>
+    <string name="table_header_year">Year</string>
+    <string name="table_header_month">Month</string>
+    <string name="statistic_label_activity">Workouts</string>
+    <string name="statistic_label_distance">Distance (km)</string>
+    <string name="statistic_label_time">Time (h)</string>
+    <string name="statistic_label_elevation">Elevation (m)</string>
+    <string name="section_title_activity_graph">Monthly Progress</string>
+
+    <!-- Strings for Edit Profile Dialog -->
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="edit_profile_picture_description">Change profile picture</string>
+    <string name="profile_name_hint">Full Name</string>
+    <string name="profile_gender_label">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="profile_age_hint">Age</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_save">Save</string>
+
+    <!-- Strings for Follow Requests Dialog -->
+    <string name="follow_requests_title">Requests</string>
+
+    <!-- Strings for Add Task Dialog -->
+    <string name="task_title_required_hint">Task Title (Required)</string>
+    <string name="task_description_optional_hint">Description (Optional)</string>
+    <string name="back_button_description">Back button</string>
+    <string name="my_trainings_title">My Trainings</string>
+    <string name="search_trainings_hint">Search trainings...</string>
+    <string name="add_new_training_button">Add New Training</string>
+    <string name="ranking_general_title">General Ranking</string>
+    <string name="ranking_metric_pace">Pace</string>
+    <string name="ranking_metric_distance">Distance</string>
+    <string name="ranking_metric_activities">Activities</string>
+    <string name="time_scope_month">Month</string>
+    <string name="time_scope_year">Year</string>
+    <string name="time_scope_total">Total</string>
+    <string name="alerts_title">Alerts</string>
+    <string name="training_details_title">Training Details</string>
+    <string name="chart_pace_title">Pace Graph</string>
+
+    <string name="metric_time">Time</string>
+    <string name="metric_distance">Distance</string>
+    <string name="metric_elevation">Elevation</string>
+    <string name="metric_calories">Calories</string>
+    <string name="metric_difficulty">Difficulty</string>
+
+    <string name="icon_time_description">Time icon</string>
+    <string name="icon_distance_description">Distance icon</string>
+    <string name="icon_pace_description">Pace icon</string>
+    <string name="icon_elevation_description">Elevation icon</string>
+    <string name="icon_calories_description">Calories icon</string>
+    <string name="icon_difficulty_description">Difficulty icon</string>
+
+    <string name="placeholder_training_name">Morning Run</string>
+    <string name="placeholder_training_date">Nov 27, 2025 at 10:00 AM</string>
+    <string name="placeholder_time_value">00:35:15</string>
+    <string name="placeholder_distance_value">5.00 km</string>
+    <string name="placeholder_pace_value">7:03 /km</string>
+    <string name="placeholder_elevation_value">150 m</string>
+    <string name="placeholder_calories_value">350 kcal</string>
+    <string name="placeholder_difficulty_value">Moderate</string>
+    <string name="home_card_title">Ready to Train?</string>
+    <string name="home_card_subtitle">Log your activities and track your progress.</string>
+    <string name="button_get_started">Get Started</string>
+
+    <string name="menu_plan">Plan</string>
+    <string name="menu_register">Register</string>
+    <string name="menu_trainings">Training</string>
+    <string name="menu_achievements">Achievements</string>
+    <string name="menu_ranking">Ranking</string>
+    <string name="menu_logout">Log Out</string>
+
+    <string name="icon_plan_description">Planning icon</string>
+    <string name="icon_register_description">Register training icon</string>
+    <string name="icon_trainings_description">Training history icon</string>
+    <string name="icon_achievements_description">Achievements icon</string>
+    <string name="icon_ranking_description">Ranking icon</string>
+    <string name="icon_logout_description">Logout icon</string>
+    <string name="training_analysis_title">Training Analysis</string>
+    <string name="training_map_description">Map of the training route</string>
+    <string name="chart_pace_segment_title">Pace per Segment</string>
+
+    <string name="metric_pace_short">Pace</string>
+    <string name="metric_elevation_short">Elevation</string>
+    <string name="metric_calories_short">Calories</string>
+
+    <string name="label_training_name">Training Name</string>
+    <string name="hint_training_name">Give your training a name</string>
+    <string name="label_add_photo">Add Photo</string>
+    <string name="training_photo">Training photo</string>
+    <string name="add_photo_description">Add or change training photo</string>
+    <string name="label_difficulty_level">Difficulty Level</string>
+
+    <string name="difficulty_zone_1">Easy</string>
+    <string name="difficulty_zone_2">Moderate</string>
+    <string name="difficulty_zone_3">Hard</string>
+    <string name="difficulty_zone_4">Intense</string>
+    <string name="difficulty_zone_5">Extreme</string>
+
+    <string name="button_save_training">Save Training</string>
+    <string name="button_accept">Accept</string>
+    <string name="button_deny">Reject</string>
+    <string name="placeholder_task_title">Complete 5km Run</string>
+    <string name="placeholder_task_description">Maintain a pace under 6:00/km</string>
+
+    <string name="button_edit_task_description">Edit task button</string>
+    <string name="button_delete_task_description">Delete task button</string>
+    <string name="icon_profile_description">User profile picture</string>
+    <string name="placeholder_user_details">150 km this month</string>
+    <string name="button_unfollow_description">Unfollow user button</string>
+    <string name="auth_screen_app_title">Running Cup</string>
+    <string name="content_description_logo">App logo</string>
+
+    <string name="hint_username_auth">Username</string>
+    <string name="hint_password_auth">Password</string>
+    <string name="text_forgot_password">Forgot Password?</string>
+    <string name="text_error_message">Invalid credentials. Please try again.</string>
+
+    <string name="button_login">Log In</string>
+    <string name="button_register">Register</string>
+    <string name="button_login_google">Continue with Google</string>
+    <string name="button_exit_app">Exit App</string>
+    <string name="screen_title_users">Social</string>
+    <string name="content_description_notifications">Notifications button</string>
+    <string name="icon_search_description">Search icon</string>
+
+    <string name="hint_search_users">Search for users...</string>
+
+    <string name="section_title_recommended_users">Recommended Users</string>
+    <string name="content_description_back_trophies">Back to previous screen</string>
+    <string name="screen_title_trophy_showcase">Achievements</string>
+    <string name="message_no_trophies">No achievements earned yet. Keep training!</string>
+    <string name="content_description_back_desafios">Back to previous screen</string>
+    <string name="screen_title_desafios">Challenges</string>
+
+    <string name="section_title_featured">FEATURED</string>
+    <string name="section_title_other_desafios">All Challenges</string>
+    <string name="section_title_trophy_cabinet">Trophy Cabinet</string>
+    <string name="message_trophies_placeholder">Trophies earned will appear here.</string>
+
+    <string name="placeholder_featured_challenge_title">Weekly Endurance Test</string>
+    <string name="placeholder_featured_challenge_description">Complete 40 km of distance running this week to earn a reward.</string>
+    <string name="placeholder_featured_challenge_progress">24 km / 40 km (60%)</string>
+
+    <string name="challenge_distance_title">Distance Master</string>
+    <string name="challenge_distance_description">Run a total distance of 100 km this month.</string>
+    <string name="placeholder_distance_progress">0 km / 100 km</string>
+
+    <string name="challenge_elevation_title">Climbing King</string>
+    <string name="challenge_elevation_description">Accumulate 1000 m of positive elevation gain.</string>
+    <string name="placeholder_elevation_progress">0 m / 1000 m</string>
+
+    <string name="challenge_workouts_title">Consistency is Key</string>
+    <string name="challenge_workouts_description">Complete 12 workouts in four consecutive weeks.</string>
+    <string name="placeholder_workouts_progress">0 / 12 Workouts</string>
+    <string name="perfil_title">Profile</string>
+    <string name="follow_button_text">Follow</string>
+    <string name="loading_profile_text">Loading profile data...</string>
+    <!-- Los siguientes strings se están SINCORNIZANDO con el MENU: -->
+    <!-- Antes: nav_title_home, nav_title_profile, etc. Ahora: menu_home, menu_profile, etc. -->
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_search">Search</string>
+    <!-- El string para Actividades se actualizará de 'stat_activity_label' a 'menu_activities' -->
+    <string name="menu_activities">Activities</string>
+    <!-- Fin de la sincronización de strings -->
+
+    <string name="app_name">Running Cup</string>
+    <string name="metric_calories_title">Calories</string>
+    <string name="territory">Territory</string>
+    <string name="map_content_description_back">Go back</string>
+    <string name="map_search_icon_content_description">Search Icon</string>
+    <string name="map_search_hint">Search zones or cities...</string>
+    <string name="map_fab_location_content_description">Center on my location</string>
+    <string name="label_training_time">Training time</string>
+    <string name="placeholder_time_default">--:--</string>
+    <string name="trainings_title">Workouts</string>
+    <string name="summary_progress_title">Monthly Progress</string>
+    <string name="summary_distance_placeholder">0 / 100 km</string>
+    <string name="summary_days_placeholder">Days: 0/20</string>
+    <string name="placeholder_message_rest_day">Rest day! Take a break or plan your next goal. 🚀</string>
+    <string name="icon_rest_desc">Icon of a person resting or day off</string>
+    <string name="summary_title_weekly">🎯 Weekly Performance Summary</string>
+    <string name="summary_separator">\n\n</string>
+
+    <string name="summary_distance_increase">You ran **%1$d%% more** than last week! Keep it up! 🚀</string>
+    <string name="summary_distance_decrease">Your distance performance dropped by %1$d%%. Make sure to plan your next session! 🏃</string>
+    <string name="summary_distance_constant">Your distance performance remained constant. Good stability! 💪</string>
+    <string name="summary_distance_first_week">Congratulations on your **%1$.0f km** distance this week! A great start! ✨</string>
+    <string name="summary_distance_zero">You haven\'t recorded any distance this week yet. Go for it! 👟</string>
+
+    <plurals name="summary_tasks_pending_plural">
+        <item quantity="one">You only have **1 pending task**! Let\'s do it! 📝</item>
+        <item quantity="other">You have **%d pending tasks** this week. Let\'s get them done! ⏱️</item>
+    </plurals>
+    <string name="summary_tasks_zero_all_done">All your tasks are up to date! You\'re super productive. ✅</string>
+    <string name="summary_tasks_too_many">Heads up! You have **%d pending tasks**. Prioritize and organize! 😅</string>
+    <string name="saliraplicacion">Exit
+    </string>
+    <string name="health_connect_tracking_sha256">81:96:FA:E1:F4:E3:86:1D:4A:C2:2C:3C:D1:D1:2B:2C:AE:5C:B8:32:2B:46:29:71:0A:56:A0:C9:DD:86:0D:83</string>
+    <string name="importar">Matter</string>
+    <string name="title_select_source">Select your data source</string>
+    <string name="btn_google_fit">Google Fit</string>
+    <string name="btn_strava">Strava</string>
+    <string name="label_import_training">Workout Import</string>
+    <string name="content_description_health_icon">Health Icon</string>
+
+
+    <string name="desc_google_fit_logo">Logo de Google Fit</string>
+    <string name="desc_strava_logo">Logo de Strava</string>
+    <string name="desc_sync_icon">Icono de sincronización</string>
+    <string name="loading_sync_title">Syncing Activity</string>
+    <string name="loading_sync_subtitle">Looking for your most recent activity on Strava and Google Fit</string>
+    <string name="title_mis_rutinas">My Routines</string>
+    <string name="general_config">General Settings</string>
+    <string name="hint_routine_name">Name (Ex: Chest Push)</string>
+    <string name="hint_time">Time (min)</string>
+    <string name="exercises_added">Exercises Added</string>
+    <string name="btn_save_cloud">SAVE TO CLOUD</string>
+    <string name="hint_exercise_name">Exercise name</string>
+    <string name="hint_series">Sets</string>
+    <string name="hint_reps">Reps</string>
+    <string name="hint_weight">Weight (kg)</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="loading_exercises">Loading exercises…</string>
+    <string name="delete_confirmation_title">Delete activity</string>
+    <string name="delete_confirmation_message">Are you sure you want to delete this activity? This action cannot be undone.</string>
+    <string name="delete_confirm">Delete</string>
+    <string name="delete_cancel">Cancel</string>
+    <string name="delete_success">Activity successfully deleted</string>
+
+    <string name="no_exercises">No exercise details</string>
+
+    <string name="congrats_header">CONGRATULATIONS!</string>
+    <string name="trophy_title_placeholder">Trophy Title</string>
+    <string name="congrats_button">Great!</string>
+    <string name="ranking_metric_territories">Zones</string>
+    <string name="time_scope_week">Week</string>
+    <string name="map_my_domain_format">You have conquered %1$d zones (Top #%2$d)</string>
+    <string name="map_my_domain_no_ranking">You have conquered %d zones (No ranking)</string>
+    <string name="map_ranking_title">🚩 TOP CONQUERORS</string>
+    <string name="map_ranking_empty">No conquests registered yet.</string>
+    <string name="map_ranking_error">Error loading ranking</string>
+    <string name="map_anonymous">Anonymous</string>
+    <string name="map_user_default">User</string>
+    <string name="map_ranking_row_format">%1$d. %2$s: %3$d zones\n</string>
+    <string name="btn_close">Close</string>
+    <string name="league_title">Monthly League</string>
+    <string name="league_standings">League Standings</string>
+    <string name="league_upcoming_divisions">Upcoming Divisions</string>
+    <string name="btn_dashboard">Dashboard</string>
+    <string name="btn_details">Details</string>
+    <string name="btn_challenge">Challenge</string>
+    <string name="btn_join_division_a">Join Division A</string>
+    <string name="btn_join_division_b">Join Division B</string>
+    <string name="points_format">%d Points</string>
+    <string name="botonempezar">Start</string>
+    <string name="LigaOnline">Online League</string>
+    <string name="ligaonlinedescripcion">Compete with other athletes this month, move up divisions, and reach the top of the ranking.</string>
+    <string name="notification_default_name">Username</string>
+    <string name="notification_type_label">Notification</string>
+    <string name="notification_wants_to_follow">Wants to follow you</string>
+    <string name="notification_request_sent">Request sent</string>
+    <string name="action_accept">Accept</string>
+    <string name="action_reject">Reject</string>
+
+
+</resources>

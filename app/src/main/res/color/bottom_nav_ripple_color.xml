@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Un color azul con 20% de opacidad -->
+    <item android:color="#331d7dc8" />
+</selector>

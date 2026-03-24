@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option_correr"
+        android:title="Running"
+        android:icon="@drawable/corriendo" />
+    <item
+        android:id="@+id/option_fuerza"
+        android:title="Fuerza / Pesas"
+        android:icon="@drawable/pesas" />
+</menu>
